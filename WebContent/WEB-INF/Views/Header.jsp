@@ -3,8 +3,8 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <spring:url value="/resources/logo.png" var="logo" />
 
-<div>
+<div id="header">
 
-	<img src="${logo}"/>
+	<img id="logo" src="${logo}"/>
 	
 </div>
